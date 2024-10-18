@@ -96,68 +96,83 @@
         </div>
     </div>
 
-    <h2 style="text-align:center;padding-top:80px;padding-bottom:20px; color:#d44fbc">~~Blogs~~</h2>
-    <div class="row">
-        <div class="blog">
-            <div class="column">
-                <div class="card">
-                    <a href="{{ url('/message') }}">
-                        <img src="{{ asset('/assets/0.jpg') }}" alt="blog" style="width:100%">
-                    </a>
-                        <h2 style="text-align: center;"><a href="{{ url('/') }}">Luxury Reimagined: The Durbar Deluxe Experience</a></h2>
-
+    <div class="contents">
+        <div class="row">
+            <div class="blog">
+                <div class="column">
+                    <div class="card">
+                        <a href="{{ url('/message') }}">
+                            <img src="{{ asset('/assets/11.jpeg') }}" alt="blog" style="width:100%">
+                        </a>
+                        <h2 style="text-align: center;"><a href="{{ url('/') }}">Suites & Rooms</a></h2>
+                        <p
+                            style="font-size: 17px;  line-height: 1.4; color: #5f666a;  font-family: 'Playfair Display'; text-align:center;">
+                            Comfort, elegance and convenience</p>
+                    </div>
                 </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                    <a href="{{ url('/message') }}">
-                        <img src="{{ asset('/assets/00.jpg') }}" alt="blog" style="width:100%">
-                    </a>
-                        <h2 style="text-align: center;"><a href="{{ url('/') }}">Top 3 festivals in Kathmandu valley</a></h2>
+                <div class="column">
+                    <div class="card">
+                        <a href="{{ url('/message') }}">
+                            <img src="{{ asset('/assets/111.jpeg') }}" alt="blog" style="width:100%">
+                        </a>
+                        <h2 style="text-align: center;"><a href="{{ url('/') }}">Culinary Delights</a>
+                        </h2>
+                        <p
+                            style="font-size: 17px;  line-height: 1.4; color: #5f666a;  font-family: 'Playfair Display'; text-align:center;">
+                            Exquisite dining surrounded by history</p>
 
+                    </div>
                 </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                    <a href="{{ url('/message') }}">
-                        <img src="{{ asset('/assets/000.jpg') }}" alt="Jane" style="width:100%">
-                    </a>
-                        <h2 style="text-align: center;"><a href="{{ url('/') }}">Mardi Himal Trek</a></h2>
-
+                <div class="column">
+                    <div class="card">
+                        <a href="{{ url('/message') }}">
+                            <img src="{{ asset('/assets/77.jpeg') }}" alt="Jane" style="width:100%">
+                        </a>
+                        <h2 style="text-align: center;"><a href="{{ url('/') }}">Conference & Events</a></h2>
+                        <p
+                            style="font-size: 17px;  line-height: 1.4; color: #5f666a;  font-family: 'Playfair Display'; text-align:center;">
+                            Unparallel venue for outstanding events</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="blogs">
+        <div class="background">
+            <h2 style="text-align:center;padding-top:40px;padding-bottom:20px; color:#335479">~~Blogs~~</h2>
+            <div class="row">
+                <div class="blog">
+                    <div class="column">
+                        <div class="card">
+                            <a href="{{ url('/message') }}">
+                                <img src="{{ asset('/assets/0.jpg') }}" alt="blog" style="width:100%">
+                            </a>
+                            <h2 style="text-align: center;"><a href="{{ url('/') }}">Luxury Reimagined: The Durbar
+                                    Deluxe
+                                    Experience</a></h2>
 
-    <h2 style="text-align:center;padding-bottom:20px; color:#d44fbc">~~Blogs~~</h2>
-    <div class="row">
-        <div class="blog">
-            <div class="column">
-                <div class="card">
-                    <a href="{{ url('/message') }}">
-                        <img src="{{ asset('/assets/0.jpg') }}" alt="blog" style="width:100%">
-                    </a>
-                        <h2 style="text-align: center;"><a href="{{ url('/') }}">Luxury Reimagined: The Durbar Deluxe Experience</a></h2>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <a href="{{ url('/message') }}">
+                                <img src="{{ asset('/assets/00.jpg') }}" alt="blog" style="width:100%">
+                            </a>
+                            <h2 style="text-align: center;"><a href="{{ url('/') }}">Top 3 festivals in Kathmandu
+                                    valley</a></h2>
 
-                </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                    <a href="{{ url('/message') }}">
-                        <img src="{{ asset('/assets/00.jpg') }}" alt="blog" style="width:100%">
-                    </a>
-                        <h2 style="text-align: center;"><a href="{{ url('/') }}">Top 3 festivals in Kathmandu valley</a></h2>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <a href="{{ url('/message') }}">
+                                <img src="{{ asset('/assets/000.jpg') }}" alt="Jane" style="width:100%">
+                            </a>
+                            <h2 style="text-align: center;"><a href="{{ url('/') }}">Mardi Himal Trek</a></h2>
 
-                </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                    <a href="{{ url('/message') }}">
-                        <img src="{{ asset('/assets/000.jpg') }}" alt="Jane" style="width:100%">
-                    </a>
-                        <h2 style="text-align: center;"><a href="{{ url('/') }}">Mardi Himal Trek</a></h2>
-
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -3,7 +3,7 @@
 
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 <section id="team" class="team_area section-padding">
-	<div class="container">
+	<div class="containerr">
 		<h2 class="title_spectial">Meet creative team</h2>
 		<div class="row text-center">
 			<div class="col-lg-2 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
@@ -94,7 +94,7 @@
 	</div><!--- END CONTAINER -->
 </section>
 <section id="bod" class="bod_area">
-<div class="container">
+<div class="containerr">
 	<h2 class="title_spectial">Board of directors</h2>
 	<div class="row text-center">
 		<div class="col-lg-3 col-sm-3 col-xs-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInLeft;">

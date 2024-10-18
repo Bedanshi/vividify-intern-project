@@ -3,7 +3,7 @@
 
     <div class="about-section">
         <h1>BEDU Hospitality Pvt. Ltd.</h1>
-        <i class="fas fa-box">With new years of experience in the hospitality sector, Bedu Hospitality stands as
+        <i class="fas fa-box"> With new years of experience in the hospitality sector, Bedu Hospitality stands as
             one of Nepal's rapidly <br>expanding chains in this industry. Bedu Hospitality journey began modestly in 2024
             when
             she started<br> working as an intern for vividify, led by Ms. Bedanshi Subedi, the chairperson, who has since
@@ -16,7 +16,7 @@
             <div class="column">
                 <div class="card">
                     <img src="{{ asset('/assets/1.jpg') }}" alt="Bedu">
-                    <div class="container">
+                    <div class="containerrr">
                         <h2>Bedanshi Subedi</h2>
                         <p class="title">CEO & Founder</p>
                         <p><button class="button">Contact</button></p>
@@ -26,7 +26,7 @@
 
             <div class="column2">
                 <div class="card">
-                    <div class="container">
+                    <div class="containeeer">
                         <h2>Message From Chairman</h2>
                         <p>
 

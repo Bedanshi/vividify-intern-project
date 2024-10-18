@@ -22,13 +22,13 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle" href="/about" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 About Us
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="/">Overview</a></li>
-                                <li><a class="dropdown-item" href="/">History</a></li>
+                                <li><a class="dropdown-item" href="/overview">Overview</a></li>
+                                <li><a class="dropdown-item" href="/history">History</a></li>
                                 <li><a class="dropdown-item" href="/message">Message From Chairman</a></li>
                                 <li><a class="dropdown-item" href="/board">Board Members</a></li>
                             </ul>
@@ -37,17 +37,17 @@
                             <a class="nav-link active" aria-current="page" href="/confrence">Confrence And Events</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Weedings</a>
+                            <a class="nav-link active" aria-current="page" href="/wedding">Weedings</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Offers</a>
+                            <a class="nav-link active" aria-current="page" href="/offer">Offers</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Contact
+                            <a class="nav-link active" aria-current="page" href="/contact">Contact
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Booking
+                            <a class="nav-link active" aria-current="page" href="/booking">Booking
                             </a>
                         </li>
 
