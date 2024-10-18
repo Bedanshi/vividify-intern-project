@@ -13,7 +13,7 @@
 
 
     <div class="box">
-        <h2 style="text-align: center !important;color:#d44fbc">Book Online:</h2>
+        <h2 style="text-align: center !important;    color: #41597a;  font-family:Playfair Display">Book Online:</h2>
         <form method="POST" action="/bookings/store" enctype="multipart/form-data">
             @csrf
             <div class="content">
@@ -82,7 +82,7 @@
             <div class="text">
                 <h1>Nepal’s finest hotel
                 </h1>
-                <p style="color: black">Yak and Yeti is a heritage hotel located in Durbar Marg, the thriving city center of
+                <p>Yak and Yeti is a heritage hotel located in Durbar Marg, the thriving city center of
                     Kathmandu Valley, in
                     a
                     prime location that is minutes walking distance from the former Royal Palace. Durbar marg is a
@@ -91,7 +91,7 @@
                     from
                     the Tribhuvan International Airport, about 1 KM from the famous tourist hub of Nepal.
                 </p>
-                <li><a href="/"><i class="fa-solid fa-angles-right"></i> Read More</a></li>
+                <li><a href="/history"><i class="fa-solid fa-angles-right"></i> Read More</a></li>
             </div>
         </div>
     </div>
@@ -140,7 +140,7 @@
 
     <div class="blogs">
         <div class="background">
-            <h2 style="text-align:center;padding-top:40px;padding-bottom:20px; color:#335479">~~Blogs~~</h2>
+            <h2 style="text-align:center;padding-top:40px;padding-bottom:20px; color:#335479;font-family: Playfair Display">Blogs</h2>
             <div class="row">
                 <div class="blog">
                     <div class="column">

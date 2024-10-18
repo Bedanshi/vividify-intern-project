@@ -19,23 +19,23 @@
     </div>
     <div class="containerr">
         <div class="gallery">
-            <figure class="gallery__item gallery__item--1">
+            <div class="gallery__item gallery__item--1">
                 <img src="assets/wed.jpeg" alt="Gallery image 1" class="gallery__img">
-            </figure>
-            <figure class="gallery__item gallery__item--2" style="margin-right: 20px;">
+            </div>
+            <div class="gallery__item gallery__item--2" style="margin-right: 20px;">
                 <img src="assets/wed2.jpeg" alt="Gallery image 2" class="gallery__img">
-            </figure>
+            </div>
 
-            <figure class="gallery__item gallery__item--3">
+            <div class="gallery__item gallery__item--3">
                 <img src="assets/wed3.jpeg" alt="Gallery image 3" class="gallery__img">
-            </figure>
+            </div>
 
-            <figure class="gallery__item gallery__item--5">
+            <div class="gallery__item gallery__item--5">
                 <img src="assets/wed4.jpeg" alt="Gallery image 5" class="gallery__img">
-            </figure>
-            <figure class="gallery__item gallery__item--6">
+            </div>
+            <div class="gallery__item gallery__item--6">
                 <img src="assets/wed5.jpeg" alt="Gallery image 6" class="gallery__img">
-            </figure>
+            </div>
         </div>
     </div>
 
