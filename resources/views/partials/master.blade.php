@@ -13,6 +13,8 @@
 
     <!-- FullCalendar JS -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/5.11.3/main.min.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 
     <!-- Fonts -->
@@ -27,6 +29,7 @@
 
         @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
         @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+
     </style>
 
     <!-- Bootstrap CSS (Choose Local or CDN) -->

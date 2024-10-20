@@ -13,14 +13,14 @@
 
 
     <div class="box">
-        <h2 style="text-align: center !important;color:#d44fbc">Book Online:</h2>
+        <h2 style="text-align: center !important;    color: #41597a;  font-family:Playfair Display">Book Online:</h2>
         <form method="POST" action="/bookings/store" enctype="multipart/form-data">
             @csrf
             <div class="content">
 
                 <div class="dropdown">
 
-                    <label for="hotel">Book A Hotel:</label>
+                    <label for="hotel" style="text-align: center !important;    color: #41597a;  font-family:Playfair Display">Book A Hotel:</label>
                     <span>
                         <select class="form-control" data-meta="0" id="hotel" name="hotel"
                             aria-labelledby="dropdownMenuButton">
@@ -81,12 +81,12 @@
 
 
     <table>
-        <h2 style="text-align:center;padding-buttom:50px;">Booked date:</h2>
+        <h2 style="text-align:center;margin-buttom:120px;  color: #41597a;  font-family:Playfair Display">Booked date:</h2>
         <thead>
             <tr>
-                <th>S no.</th>
-                <th>Check_in</th>
-                <th>Check_out</th>
+                <th >S no.</th>
+                <th >Check_in</th>
+                <th >Check_out</th>
             </tr>
         </thead>
         <tbody>

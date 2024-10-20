@@ -27,7 +27,7 @@
                                 About Us
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="/overview">Overview</a></li>
+
                                 <li><a class="dropdown-item" href="/history">History</a></li>
                                 <li><a class="dropdown-item" href="/message">Message From Chairman</a></li>
                                 <li><a class="dropdown-item" href="/board">Board Members</a></li>
