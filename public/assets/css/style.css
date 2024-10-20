@@ -554,11 +554,11 @@ a {
 .text-blk.headingText {
     font-size: 35px;
 
-    font-weight: 700;
+
     line-height: 30px;
-    color: rgb(15, 9, 21);
-    padding-top: 0px;
-    padding-right: 10px;
+    color:#335479;
+    font-family: Playfair Display;
+
     padding-bottom: 10px;
     padding-left: 0px;
     margin-top: 0px;
@@ -597,7 +597,6 @@ a {
 .text-blk.description {
     font-size: 18px;
     line-height: 26px;
-    color: rgb(102, 102, 102);
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 50px;
@@ -618,7 +617,7 @@ a {
 .explore {
     font-size: 16px;
     line-height: 28px;
-    color: rgb(102, 102, 102);
+    color: black;
     border-top-width: 2px;
     border-right-width: 2px;
     border-bottom-width: 2px;
@@ -1111,7 +1110,7 @@ a {
     text-align: justify;
     font-size: 20px;
     padding-right: 30px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 .text li {
     text-align:center;
@@ -1310,6 +1309,7 @@ button[type="submit"]:hover {
     font-size: 52px;
     line-height: 1.4;
     font-family: "Playfair Display";
+    color:#335479;
     font-weight: 500;
 }
 
@@ -1335,9 +1335,6 @@ button[type="submit"]:hover {
     box-sizing: border-box;
 }
 
-html {
-    box-sizing: border-box;
-}
 
 body {
     font-family: "Nunito", sans-serif;
@@ -1353,29 +1350,31 @@ body {
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-    grid-template-rows: auto; /* Auto-adjusting rows */
+    gap:25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 25px;
 }
 
 .gallery__img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures image covers the grid cell */
+
+    object-fit: cover;
     display: block;
 }
 
 .gallery__item {
-    grid-column: span 1; /* Each item spans 1 column */
-    grid-row: span 1; /* Each item spans 1 row */
-}
-.gallery__item--1 {
-    grid-column: span 2;
+    grid-column: span 1;
     grid-row: span 1;
 }
+
 .button {
     border: none;
     color: white;
     padding: 16px 20px;
-    margin-left: 59%;
+    margin-left: 35%;
     margin-bottom: 3%;
     text-align: center;
     text-decoration: none;
@@ -1389,6 +1388,7 @@ body {
     background-color: white;
     color: black;
     border: 2px solid #008cba;
+    justify-content: center;
 }
 
 .button2:hover {
@@ -1412,7 +1412,7 @@ body {
     background-image: -moz-linear-gradient(0deg, #eed28f 0%, #dbbc74 100%);
     background-image: -webkit-linear-gradient(0deg, #797fb2 0%, #6b9ee0 100%);
     background-image: -ms-linear-gradient(0deg, #f6d27f 0%, #dbbc74 100%);
-    box-shadow: 2.5px 4.33px 15px 0px rgba(254, 176, 0, 0.4);
+    box-shadow: 2.5px 4.33px 15px 0px #797fb2;
 }
 .deneb_cta .cta_wrapper:after {
     content: "";

@@ -2,7 +2,7 @@
 @include('partials.header')
 @section('main')
 <div class="box">
-    <h2 style="text-align: center !important;color:#d44fbc">Book Online:</h2>
+    <h2 style="text-align: center !important;color: #41597a;  font-family:Playfair Display">Book Online:</h2>
     <form method="POST" action="/bookings/store" enctype="multipart/form-data">
         @csrf
         <div class="content">
@@ -72,7 +72,7 @@
                     <a href="{{ url('/message') }}">
                         <img src="{{ asset('/assets/brunch.png') }}" alt="blog" >
                     </a>
-                    <h2 style="text-align:center"><a href="{{ url('/') }}" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:rgb(52, 52, 223);">Saturday Brunch</a></h2>
+                    <h2 style="text-align:center"><a href="{{ url('/') }}" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: #41597a; ">Saturday Brunch</a></h2>
 
                 </div>
             </div>
@@ -81,7 +81,7 @@
                     <a href="{{ url('/message') }}">
                         <img src="{{ asset('/assets/live.png') }}" alt="blog" style="width:100%">
                     </a>
-                    <h2 style="text-align: center;"><a href="{{ url('/') }}" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:rgb(52, 52, 223);">Live Music Every Friday</a>
+                    <h2 style="text-align: center;"><a href="{{ url('/') }}" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: #41597a;">Live Music Every Friday</a>
                     </h2>
                 </div>
             </div>
@@ -90,7 +90,7 @@
                     <a href="{{ url('/message') }}">
                         <img src="{{ asset('/assets/offer.png') }}" alt="Jane" style="width:100%">
                     </a>
-                    <h2 style="text-align: center;"><a href="{{ url('/') }}" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:rgb(52, 52, 223);">Special</a></h2>
+                    <h2 style="text-align: center;"><a href="{{ url('/') }}" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: #41597a;">Special</a></h2>
                        </div>
             </div>
         </div>
