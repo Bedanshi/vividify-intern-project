@@ -2,8 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 
-use App\Models\Bookin;
+use App\Models\booking;
+use App\Models\Customer;
 use App\Http\Controllers\UserController;
+
+use App\Http\Controllers\AuthController;
+
 
 Route::get('/', function () {
     return view('index');
@@ -37,3 +41,10 @@ Route::get('/confrence', function () {
 
 Route::post('/bookings/store', [UserController::class,'store'])->name('bookings.store');
 Route::get('/booking', [UserController::class, 'index']);
+
+Route::get('/register', function () {
+    return view('register');
+});
+
+Route::get('register',[AuthController::class,'index']);
+Route::post('/customers/store', [AuthController::class,'store']);
